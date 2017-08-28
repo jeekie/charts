@@ -35,12 +35,12 @@ persistence:
   ## A manually managed Persistent Volume and Claim
   ## Requires persistence.enabled: true
   ## If defined, PVC must be created manually before volume will be bound
-  # existingClaim:
+  existingClaim:
 
   ## If defined, volume.beta.kubernetes.io/storage-class: <storageClass>
   ## Default: volume.alpha.kubernetes.io/storage-class: default
   ##
-  # storageClass:
+  storageClass:
   accessMode: ReadWriteOnce
   size: 8Gi
 
